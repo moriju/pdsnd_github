@@ -22,12 +22,12 @@ def get_filters():
         city = input("Please choose Chicago, New York City or Washington: ").lower()
 
     # get user input for month (all, january, february, ... , june)
-    month = input("Which month? Please choose: All, January, February, March, April, May, June: ").lower()
+    month = input("Please choose a month: All, January, February, March, April, May, June: ").lower()
     while month not in ["all","january", "february", "march", "april", "may", "june"]:
         month = input("Please choose ALL, January, February, March, April, May, June: ").lower()
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    day = input("Which day? Please choose: All, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday: ").lower()
+    day = input("Please choose a day: All, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday: ").lower()
     while day not in ["all","monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]:
         day = input("Please choose: All, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday: ").lower()
 
