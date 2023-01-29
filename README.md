@@ -14,9 +14,9 @@ I wrote code to import the data and answer interesting questions about it by com
 I also wrote a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
 ### Files used
-chicago.csv
-new_york_city.csv
-washington.csv
+1. chicago.csv
+2. new_york_city.csv
+3. washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
